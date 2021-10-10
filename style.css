@@ -55,7 +55,6 @@ nav ul {
 
 .col2 {
     flex-basis: 75%;
-    align-content: left;
 }
 
 h3 {
@@ -132,15 +131,30 @@ footer img{
 
 .card {
     width: 33%;
+    text-align: center;
+    margin: 2px;
 }
 
 .card img {
-    max-width: 200px;
+    max-width: 300px;
+    height: 200px;
 }
 
 .card:hover {
     background-color: #EFC65B;
     border-radius: 5px;
+}
+
+.card-hover {
+    display: none;
+}
+
+.card-col {
+    display: flex;
+    flex-direction: column;
+}
+.card-row {
+    padding-top: 10px;
 }
 
 .menu {
@@ -193,10 +207,18 @@ footer img{
     background-color: #EFC65B;
     margin-left: 40px;
     padding-left: 8px;
-    align-content: left;
 }
 
 select {
     margin-left: 60px;
     background-color: #EFC65B;
+}
+
+.card-details a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    padding: .5rem;
+    border-radius: 5px;
 }

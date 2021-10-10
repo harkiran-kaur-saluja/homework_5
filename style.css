@@ -12,7 +12,6 @@ nav {
     font-weight: bolder;
 }
 
-
 .nav {
     display: inline-block;
 }
@@ -48,7 +47,7 @@ nav ul {
 
 .col {
     flex-basis: 25%;
-    border-radius: 10px;-
+    border-radius: 10px;
     padding-left: 10px;
     padding-top: 50px;
     box-sizing: border-box;
@@ -86,8 +85,7 @@ h3 {
 
 .intro p {
     text-align: center;
-    font-size: 40px;
-    
+    font-size: 40px;    
 }
 
 .intro a {
@@ -123,4 +121,62 @@ h3 {
 footer img{
     max-width: 1200px;
     margin-left: 20px;
+}
+
+.cards-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.card {
+    width: 33%;
+}
+
+.card img {
+    max-width: 200px;
+}
+
+.card:hover {
+    background-color: #EFC65B;
+    border-radius: 5px;
+}
+
+.menu {
+    margin-left: 550px;
+}
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.inner-row {
+    flex-wrap: nowrap;
+    display:inline-block;
+}
+
+.inner-col p {
+    margin-bottom: 0px;
+}
+
+.bullet-points li{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-left: 30px;
+}
+
+.inner-col a {
+    width: 90px;
+}
+
+.reviews {
+    margin-left: 0px;
+}
+
+.lauren {
+    margin-left: 50px;
 }

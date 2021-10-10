@@ -70,7 +70,7 @@ h3 {
 }
 
 .intro {
-    background-image: url("./img/coverImage.JPG");
+    background-image: url("./img/coverImage.jpg");
     background-size:cover;
     color: white;
     height:350px;

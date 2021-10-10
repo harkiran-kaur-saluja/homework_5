@@ -151,11 +151,13 @@ footer img{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 .inner-row {
     flex-wrap: nowrap;
-    display:inline-block;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .inner-col p {
@@ -179,4 +181,22 @@ footer img{
 
 .lauren {
     margin-left: 50px;
+}
+
+#glaze {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #EFC65B;
+    margin-left: 40px;
+    padding-left: 8px;
+    align-content: left;
+}
+
+select {
+    margin-left: 60px;
+    background-color: #EFC65B;
 }
